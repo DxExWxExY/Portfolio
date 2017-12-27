@@ -1,0 +1,125 @@
+@charset "UTF-8";
+/* CSS Document */
+.start { /*header conatainer*/
+	background-image: url(images/headerBG.png); /*create background image*/
+	background-position: center;
+	position: relative;
+	width: 100%;
+	height: auto;
+	left: 0; /*in charge of deleting default margin*/
+	top: 0;
+	background-size: 100% auto; /*automatic image fill*/
+	padding-bottom: .01%;
+	overflow: hidden;
+}
+.start p { 
+	color: white;
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	font-size: 30px;
+	margin: 3%;
+	padding: 0;
+}
+.menu {
+	align-content: center;
+	color: white;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	text-decoration: none;
+	margin: 2%;
+	font-size: 18px;
+}
+.menu a {
+	color: white;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	text-decoration: none;
+	padding: 2%;
+	transition: background-color .5s;
+}
+.menu a:visited {
+	color: white;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	text-decoration: none;
+}
+.menu a:hover {
+	background-color: darkred;
+}
+.footer {
+	align-content: center;
+	background-color: #272822;
+	position: relative;
+	width: 100%;
+	height: auto;
+	bottom: 0;
+	left: 0;
+	overflow: hidden;
+	padding-bottom: 2%;
+}
+.footer p {
+	color: #75715E;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+	font-size: 90%;
+	padding: 3% 3% 1%;
+	margin: 0;
+}
+.footer a {
+	color: #F8F8F2;
+	text-decoration: none;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 80%;
+	padding: 1%;
+	margin: 1% 1% 0;
+}
+.footer a:visited {
+	color: #F8F8F2;
+	text-decoration: none;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+.footer a:hover {
+	text-decoration: underline;
+}
+.about {
+	width: 100%;
+	overflow: hidden;
+}
+.about img {
+	width: 25%;
+	height: 25%px;
+	border-radius: 100px;
+	float: right;
+	margin: 2%;
+}
+.about h1 {
+	color: #3B3A32;
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	font-size: 200%;
+	margin: 5%;
+}
+.about p {
+	color: #49483E;
+	font-size: 150%;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin: 5%;
+}
+.skills {
+	width: 100%;
+	height: auto;
+	background-color: darkred;
+	overflow: hidden;
+	padding-bottom: 1%;
+}
+.skills h1 {
+	color: white;
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	font-size: 200%;
+	margin: 5% 5% .5% 5%;
+}
+.skills p {
+	color: #F8F8F3;
+	font-size: 150%;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin: .5% 5% .5% 5%;
+}
+.skills img {
+	width: 10%;
+	height: auto;
+	margin: 1%;
+}
